@@ -20,7 +20,7 @@ wget -O subspace-farmer https://github.com/subspace/subspace/releases/download/s
 chmod +x subspace*
 mv subspace* /usr/local/bin/
 
-echo -e "\e[1m\e[32m7. Creating service...\e[0m"
+echo -e "\e[1m\e[32m Creating service...\e[0m"
 
 echo "[Unit]
 Description=Subspace Node
