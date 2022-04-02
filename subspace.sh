@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt install git
 sudo apt install curl
+clear
 curl -s https://raw.githubusercontent.com/cryptongithub/init/main/logo.sh | bash && sleep 2 
 
 echo "=+=+=+=+=+=++=+=++=crypton=+=+=+=+=+=++=+=++="
@@ -24,7 +25,7 @@ sudo adduser --system --home=/var/lib/subspace subspace
 
 echo -e "\e[1m\e[32m7. Creating service...\e[0m"
 
-printf "[Unit]
+echo "[Unit]
 Description=Subspace Node
 After=network.target
 [Service]
@@ -37,7 +38,7 @@ LimitNOFILE=10000
 [Install]
 WantedBy=multi-user.target" > /etc/systemd/system/subspace-node.service
 
-printf "[Unit]
+echo "[Unit]
 Description=Subspace Farmer
 Requires=subspace-node.service
 After=network.target
