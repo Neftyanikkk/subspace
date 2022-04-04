@@ -1,6 +1,21 @@
 #!/bin/bash
 sudo apt install git
 sudo apt install curl
+
+ ____                           __
+/\  _`\                        /\ \__
+\ \ \/\_\  _ __   __  __  _____\ \ ,_\   ___     ___
+ \ \ \/_/_/\`'__\/\ \/\ \/\ '__`\ \ \/  / __`\ /' _ `\
+  \ \ \L\ \ \ \/ \ \ \_\ \ \ \L\ \ \ \_/\ \L\ \/\ \/\ \
+   \ \____/\ \_\  \/`____ \ \ ,__/\ \__\ \____/\ \_\ \_\
+    \/___/  \/_/   `/___/> \ \ \/  \/__/\/___/  \/_/\/_/
+                      /\___/\ \_\
+                      \/__/  \/_/
+
+
+
+
+
 clear
 curl -s https://raw.githubusercontent.com/cryptongithub/init/main/logo.sh | bash && sleep 2 
 
